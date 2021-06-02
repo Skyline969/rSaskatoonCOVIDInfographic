@@ -9,7 +9,9 @@ This script retrieves COVID-19 dashboard information from the Government of Sask
 Installation is as simple as installing the dependencies and placing the files in this project in the same directory somewhere on your webserver. No configuration necessary.
 
 ## Usage
-Once properly installed, all you should need to do is call infographic.php in your web browser. NOTE: The script looks for information for today, if the government has not yet released today's numbers values will instead read "N/A". If this happens to you, simply wait until the government releases numbers for today.
+Once properly installed, all you should need to do is call infographic.php in your web browser. One optional argument is supported - size. This can be medium, small, or tiny to shrink the image. Any other value (or not specifying a size whatsoever) will result in the full-size image being generated.
+
+NOTE: The script looks for information for today, if the government has not yet released today's numbers values will instead read "N/A". If this happens to you, simply wait until the government releases numbers for today.
 
 ## Donations
 If you like this infographic, feel free to buy me a beer. Donations are never mandatory or even expected but are always appreciated.
